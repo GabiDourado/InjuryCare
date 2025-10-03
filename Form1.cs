@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InjuryCare
 {
-    public partial class Form1 : Form
+    public partial class PgInicial : Form
     {
-        public Form1()
+        public PgInicial()
         {
             InitializeComponent();
         }
