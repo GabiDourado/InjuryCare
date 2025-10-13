@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo interna - injury care.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPeleEFeridas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnOrdemDeCuidados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnTipoDeFeridas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLimpezaDaFerida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCurativos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCicatrizacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnReferencias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCreditos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

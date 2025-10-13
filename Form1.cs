@@ -21,5 +21,10 @@ namespace InjuryCare
         {
 
         }
+
+        private void btnCurativos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
