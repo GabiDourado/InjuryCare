@@ -30,14 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PgInicial));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnCredito = new System.Windows.Forms.Button();
-            this.btnRef = new System.Windows.Forms.Button();
-            this.btnCicatrizacao = new System.Windows.Forms.Button();
-            this.btnCurativos = new System.Windows.Forms.Button();
-            this.btnLimpeza = new System.Windows.Forms.Button();
-            this.btnTipoFerida = new System.Windows.Forms.Button();
-            this.btnOrdem = new System.Windows.Forms.Button();
-            this.btnPele = new System.Windows.Forms.Button();
+            this.pnTelaInicial = new System.Windows.Forms.Panel();
             this.btnLogo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,94 +46,13 @@
             this.textBox1.Text = "top";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // btnCredito
+            // pnTelaInicial
             // 
-            this.btnCredito.BackColor = System.Drawing.Color.Transparent;
-            this.btnCredito.BackgroundImage = global::InjuryCare.Properties.Resources.btnCreditos;
-            this.btnCredito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCredito.Location = new System.Drawing.Point(743, 663);
-            this.btnCredito.Name = "btnCredito";
-            this.btnCredito.Size = new System.Drawing.Size(309, 190);
-            this.btnCredito.TabIndex = 10;
-            this.btnCredito.UseVisualStyleBackColor = false;
-            // 
-            // btnRef
-            // 
-            this.btnRef.BackColor = System.Drawing.Color.Transparent;
-            this.btnRef.BackgroundImage = global::InjuryCare.Properties.Resources.btnReferencias;
-            this.btnRef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRef.Location = new System.Drawing.Point(376, 663);
-            this.btnRef.Name = "btnRef";
-            this.btnRef.Size = new System.Drawing.Size(309, 190);
-            this.btnRef.TabIndex = 9;
-            this.btnRef.UseVisualStyleBackColor = false;
-            // 
-            // btnCicatrizacao
-            // 
-            this.btnCicatrizacao.BackColor = System.Drawing.Color.Transparent;
-            this.btnCicatrizacao.BackgroundImage = global::InjuryCare.Properties.Resources.btnCicatrizacao;
-            this.btnCicatrizacao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCicatrizacao.Location = new System.Drawing.Point(905, 442);
-            this.btnCicatrizacao.Name = "btnCicatrizacao";
-            this.btnCicatrizacao.Size = new System.Drawing.Size(309, 190);
-            this.btnCicatrizacao.TabIndex = 8;
-            this.btnCicatrizacao.UseVisualStyleBackColor = false;
-            // 
-            // btnCurativos
-            // 
-            this.btnCurativos.BackColor = System.Drawing.Color.Transparent;
-            this.btnCurativos.BackgroundImage = global::InjuryCare.Properties.Resources.btnCurativos;
-            this.btnCurativos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCurativos.Location = new System.Drawing.Point(560, 442);
-            this.btnCurativos.Name = "btnCurativos";
-            this.btnCurativos.Size = new System.Drawing.Size(309, 190);
-            this.btnCurativos.TabIndex = 7;
-            this.btnCurativos.UseVisualStyleBackColor = false;
-            this.btnCurativos.Click += new System.EventHandler(this.btnCurativos_Click);
-            // 
-            // btnLimpeza
-            // 
-            this.btnLimpeza.BackColor = System.Drawing.Color.Transparent;
-            this.btnLimpeza.BackgroundImage = global::InjuryCare.Properties.Resources.btnLimpezaDaFerida;
-            this.btnLimpeza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLimpeza.Location = new System.Drawing.Point(203, 442);
-            this.btnLimpeza.Name = "btnLimpeza";
-            this.btnLimpeza.Size = new System.Drawing.Size(309, 190);
-            this.btnLimpeza.TabIndex = 6;
-            this.btnLimpeza.UseVisualStyleBackColor = false;
-            // 
-            // btnTipoFerida
-            // 
-            this.btnTipoFerida.BackColor = System.Drawing.Color.Transparent;
-            this.btnTipoFerida.BackgroundImage = global::InjuryCare.Properties.Resources.btnTipoDeFeridas;
-            this.btnTipoFerida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTipoFerida.Location = new System.Drawing.Point(905, 213);
-            this.btnTipoFerida.Name = "btnTipoFerida";
-            this.btnTipoFerida.Size = new System.Drawing.Size(309, 190);
-            this.btnTipoFerida.TabIndex = 5;
-            this.btnTipoFerida.UseVisualStyleBackColor = false;
-            // 
-            // btnOrdem
-            // 
-            this.btnOrdem.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdem.BackgroundImage = global::InjuryCare.Properties.Resources.btnOrdemDeCuidados;
-            this.btnOrdem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnOrdem.Location = new System.Drawing.Point(560, 213);
-            this.btnOrdem.Name = "btnOrdem";
-            this.btnOrdem.Size = new System.Drawing.Size(309, 190);
-            this.btnOrdem.TabIndex = 4;
-            this.btnOrdem.UseVisualStyleBackColor = false;
-            // 
-            // btnPele
-            // 
-            this.btnPele.BackColor = System.Drawing.Color.Transparent;
-            this.btnPele.BackgroundImage = global::InjuryCare.Properties.Resources.btnPeleEFeridas;
-            this.btnPele.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPele.Location = new System.Drawing.Point(203, 213);
-            this.btnPele.Name = "btnPele";
-            this.btnPele.Size = new System.Drawing.Size(309, 190);
-            this.btnPele.TabIndex = 3;
-            this.btnPele.UseVisualStyleBackColor = false;
+            this.pnTelaInicial.Location = new System.Drawing.Point(0, 116);
+            this.pnTelaInicial.Name = "pnTelaInicial";
+            this.pnTelaInicial.Size = new System.Drawing.Size(1431, 946);
+            this.pnTelaInicial.TabIndex = 11;
+            this.pnTelaInicial.Paint += new System.Windows.Forms.PaintEventHandler(this.pnTelaInicial_Paint);
             // 
             // btnLogo
             // 
@@ -152,6 +64,7 @@
             this.btnLogo.Size = new System.Drawing.Size(384, 74);
             this.btnLogo.TabIndex = 2;
             this.btnLogo.UseVisualStyleBackColor = false;
+            this.btnLogo.Click += new System.EventHandler(this.btnLogo_Click);
             // 
             // pictureBox1
             // 
@@ -168,14 +81,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1422, 1055);
-            this.Controls.Add(this.btnCredito);
-            this.Controls.Add(this.btnRef);
-            this.Controls.Add(this.btnCicatrizacao);
-            this.Controls.Add(this.btnCurativos);
-            this.Controls.Add(this.btnLimpeza);
-            this.Controls.Add(this.btnTipoFerida);
-            this.Controls.Add(this.btnOrdem);
-            this.Controls.Add(this.btnPele);
+            this.Controls.Add(this.pnTelaInicial);
             this.Controls.Add(this.btnLogo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
@@ -194,14 +100,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnLogo;
-        private System.Windows.Forms.Button btnPele;
-        private System.Windows.Forms.Button btnOrdem;
-        private System.Windows.Forms.Button btnTipoFerida;
-        private System.Windows.Forms.Button btnLimpeza;
-        private System.Windows.Forms.Button btnCurativos;
-        private System.Windows.Forms.Button btnCicatrizacao;
-        private System.Windows.Forms.Button btnRef;
-        private System.Windows.Forms.Button btnCredito;
+        private System.Windows.Forms.Panel pnTelaInicial;
     }
 }
 

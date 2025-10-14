@@ -12,17 +12,47 @@ namespace InjuryCare
 {
     public partial class PgInicial : Form
     {
+
+        public void MostrarTela(UserControl tela)
+        {
+            pnTelaInicial.Controls.Clear();
+            tela.Dock = DockStyle.Fill;
+            pnTelaInicial.Controls.Add(tela);
+        }
         public PgInicial()
         {
             InitializeComponent();
+            MostrarTelaInicial();
+        }
+        private void MostrarTelaInicial()
+        {
+            var telaInicio = new Inicio();
+
+            // Conecta o botão "Pele" para abrir a tela PeleFerida
+            telaInicio.BtnPeleClicado += (s, e) =>
+            {
+                var telaPele = new PeleFerida();
+                MostrarTela(telaPele);
+            };
+
+            // Mostra a tela inicial no painel
+            MostrarTela(telaInicio);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
+        private void label1_Click(object sender, EventArgs e)
+        {
 
-        private void btnCurativos_Click(object sender, EventArgs e)
+        }
+        private void btnLogo_Click(object sender, EventArgs e)
+        {
+            MostrarTelaInicial();
+
+        }
+        private void pnTelaInicial_Paint(object sender, PaintEventArgs e)
         {
 
         }
