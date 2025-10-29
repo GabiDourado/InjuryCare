@@ -146,5 +146,14 @@
   <ItemGroup>
     <None Include="Resources\ImgLimpeza.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curativo da tela de curativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curativio ferida curatyivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curativio ferida curatyivo1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

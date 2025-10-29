@@ -143,6 +143,36 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Curativio_ferida_curatyivo {
+            get {
+                object obj = ResourceManager.GetObject("Curativio ferida curatyivo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Curativio_ferida_curatyivo1 {
+            get {
+                object obj = ResourceManager.GetObject("Curativio ferida curatyivo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Curativo_da_tela_de_curativo {
+            get {
+                object obj = ResourceManager.GetObject("Curativo da tela de curativo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImgLimpeza {
             get {
                 object obj = ResourceManager.GetObject("ImgLimpeza", resourceCulture);
