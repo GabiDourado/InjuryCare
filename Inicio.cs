@@ -13,6 +13,7 @@ namespace InjuryCare
     public partial class Inicio : UserControl
     {
         public event EventHandler BtnPeleClicado;
+        public event EventHandler BtnLimpezaClicado;
         public Inicio()
         {
             InitializeComponent();
@@ -21,6 +22,11 @@ namespace InjuryCare
         private void btnPele_Click(object sender, EventArgs e)
         {
             BtnPeleClicado?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void btnLimpeza_Click(object sender, EventArgs e)
+        {
+            BtnLimpezaClicado?.Invoke(this, EventArgs.Empty);
         }
     }
 }
