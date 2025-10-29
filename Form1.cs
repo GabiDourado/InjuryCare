@@ -40,7 +40,12 @@ namespace InjuryCare
                 var telaLimpeza = new LimpezaFerida();
                 MostrarTela(telaLimpeza);
             };
-
+            // Conecta o botão "Pele" para abrir a tela PeleFerida
+            telaInicio.BtnCurativoClicado += (s, e) =>
+            {
+                var telaCurativo = new CurativoFerida();
+                MostrarTela(telaCurativo);
+            };
             // Mostra a tela inicial no painel
             MostrarTela(telaInicio);
         }
