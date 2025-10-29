@@ -155,5 +155,20 @@
   <ItemGroup>
     <None Include="Resources\ImgLimpeza.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_164224623-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_163246609-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_163928313-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_163514131-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_164516112-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

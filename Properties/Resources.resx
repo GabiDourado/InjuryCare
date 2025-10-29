@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnPeleEFeridas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnPeleEFeridas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnCreditos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCreditos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnOrdemDeCuidados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnOrdemDeCuidados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem_2025-10-03_163514131-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem_2025-10-03_163514131-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnLimpezaDaFerida" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnLimpezaDaFerida.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,25 +133,34 @@
   <data name="btnCurativos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnCurativos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnCicatrizacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCicatrizacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnOrdemDeCuidados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnOrdemDeCuidados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnReferencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnReferencias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Logo interna - injury care" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo interna - injury care.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnCreditos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCreditos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagem_2025-10-03_163928313-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem_2025-10-03_163928313-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnTipoDeFeridas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnTipoDeFeridas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imagem_2025-10-03_164224623-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem_2025-10-03_164224623-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPeleEFeridas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnPeleEFeridas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnReferencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnReferencias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem_2025-10-03_163246609-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem_2025-10-03_163246609-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ImgLimpeza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ImgLimpeza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCicatrizacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCicatrizacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem_2025-10-03_164516112-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem_2025-10-03_164516112-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

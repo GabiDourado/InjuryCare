@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>3. Fase de Maturação (Remodelação): A fase mais longa, pode durar meses ou
+anos. O tecido é remodelado, e a cicatriz clareia e se fortalece.
+Fatores que Interferem na Cicatrização:
+Estresse, ansiedade, idade, depressão, tabagismo, etilismo, patologias, uso de
+fármacos, má perfusão e oxigenação, edema, infecção, desnutrição e desidratação.
+
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>1. Fase Inflamatória: Ocorre logo após a lesão. Há formação de coágulo, sinais
+de inflamação (hiperemia, edema) e presença de exsudato. Nesta fase, podem
+surgir tecidos desvitalizados como *esfacelo* (amarelado e úmido) ou necrose
+(crosta escura).</value>
+  </data>
 </root>
