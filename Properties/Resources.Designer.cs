@@ -143,6 +143,56 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagem_2025_10_03_163246609_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("imagem_2025-10-03_163246609-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_2025_10_03_163514131_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("imagem_2025-10-03_163514131-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_2025_10_03_163928313_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("imagem_2025-10-03_163928313-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_2025_10_03_164224623_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("imagem_2025-10-03_164224623-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_2025_10_03_164516112_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("imagem_2025-10-03_164516112-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Curativio_ferida_curatyivo {
             get {
                 object obj = ResourceManager.GetObject("Curativio ferida curatyivo", resourceCulture);

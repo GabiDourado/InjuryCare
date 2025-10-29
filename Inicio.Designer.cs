@@ -45,7 +45,7 @@
             this.btnCurativos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCurativos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCurativos.Location = new System.Drawing.Point(425, 237);
-            this.btnCurativos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCurativos.Margin = new System.Windows.Forms.Padding(2);
             this.btnCurativos.Name = "btnCurativos";
             this.btnCurativos.Size = new System.Drawing.Size(232, 154);
             this.btnCurativos.TabIndex = 7;
@@ -59,7 +59,7 @@
             this.btnRef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRef.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRef.Location = new System.Drawing.Point(292, 414);
-            this.btnRef.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRef.Margin = new System.Windows.Forms.Padding(2);
             this.btnRef.Name = "btnRef";
             this.btnRef.Size = new System.Drawing.Size(232, 154);
             this.btnRef.TabIndex = 9;
@@ -72,7 +72,7 @@
             this.btnCredito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCredito.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCredito.Location = new System.Drawing.Point(568, 414);
-            this.btnCredito.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCredito.Margin = new System.Windows.Forms.Padding(2);
             this.btnCredito.Name = "btnCredito";
             this.btnCredito.Size = new System.Drawing.Size(232, 154);
             this.btnCredito.TabIndex = 10;
@@ -85,7 +85,7 @@
             this.btnLimpeza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLimpeza.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpeza.Location = new System.Drawing.Point(158, 237);
-            this.btnLimpeza.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLimpeza.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpeza.Name = "btnLimpeza";
             this.btnLimpeza.Size = new System.Drawing.Size(232, 154);
             this.btnLimpeza.TabIndex = 6;
@@ -99,7 +99,7 @@
             this.btnOrdem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnOrdem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOrdem.Location = new System.Drawing.Point(425, 51);
-            this.btnOrdem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOrdem.Margin = new System.Windows.Forms.Padding(2);
             this.btnOrdem.Name = "btnOrdem";
             this.btnOrdem.Size = new System.Drawing.Size(232, 154);
             this.btnOrdem.TabIndex = 4;
@@ -112,7 +112,7 @@
             this.btnTipoFerida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTipoFerida.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTipoFerida.Location = new System.Drawing.Point(691, 51);
-            this.btnTipoFerida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTipoFerida.Margin = new System.Windows.Forms.Padding(2);
             this.btnTipoFerida.Name = "btnTipoFerida";
             this.btnTipoFerida.Size = new System.Drawing.Size(232, 154);
             this.btnTipoFerida.TabIndex = 5;
@@ -125,11 +125,12 @@
             this.btnCicatrizacao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCicatrizacao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCicatrizacao.Location = new System.Drawing.Point(691, 237);
-            this.btnCicatrizacao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCicatrizacao.Margin = new System.Windows.Forms.Padding(2);
             this.btnCicatrizacao.Name = "btnCicatrizacao";
             this.btnCicatrizacao.Size = new System.Drawing.Size(232, 154);
             this.btnCicatrizacao.TabIndex = 8;
             this.btnCicatrizacao.UseVisualStyleBackColor = false;
+            this.btnCicatrizacao.Click += new System.EventHandler(this.btnCicatrizacao_Click);
             // 
             // btnPele
             // 
@@ -138,7 +139,7 @@
             this.btnPele.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPele.Location = new System.Drawing.Point(158, 51);
-            this.btnPele.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPele.Margin = new System.Windows.Forms.Padding(2);
             this.btnPele.Name = "btnPele";
             this.btnPele.Size = new System.Drawing.Size(232, 154);
             this.btnPele.TabIndex = 3;
@@ -157,7 +158,7 @@
             this.Controls.Add(this.btnLimpeza);
             this.Controls.Add(this.btnTipoFerida);
             this.Controls.Add(this.btnOrdem);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inicio";
             this.Size = new System.Drawing.Size(1073, 769);
             this.ResumeLayout(false);

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cicatrizacao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cicatrizacao.Designer.cs">
+      <DependentUpon>Cicatrizacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="CurativoFerida.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cicatrizacao.resx">
+      <DependentUpon>Cicatrizacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CurativoFerida.resx">
       <DependentUpon>CurativoFerida.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +154,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ImgLimpeza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_164224623-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_163246609-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_163928313-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_163514131-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2025-10-03_164516112-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Curativo da tela de curativo.png" />
