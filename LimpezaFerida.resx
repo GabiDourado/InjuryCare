@@ -117,22 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Limpeza: É indispensável para uma boa cicatrização.
-
-Ferida Fechada: Limpar com soro fisiológico 0,9% em jato, secar e cobrir com gaze
-ou filme.
-
-Ferida Aberta: Usar SF 0,9% morno em jato, secar apenas ao redor da ferida antes
-de aplicar a cobertura.
-
-Desbridamento: Remoção de tecido necrosado ou desvitalizado para estimular a
-regeneração.
-
-Benefícios: Remove tecido morto, reduz o risco de infecção e estimula a
-cicatrização.
-
-Tipos: Mecânico (com gaze ou bisturi), autolítico (usa enzimas do próprio corpo em
-ambiente úmido), enzimático (usa produtos como colagenase) ou cirúrgico</value>
-  </data>
 </root>

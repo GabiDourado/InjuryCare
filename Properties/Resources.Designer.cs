@@ -143,6 +143,16 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ImgLimpeza {
+            get {
+                object obj = ResourceManager.GetObject("ImgLimpeza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_interna___injury_care {
             get {
                 object obj = ResourceManager.GetObject("Logo interna - injury care", resourceCulture);

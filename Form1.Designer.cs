@@ -49,6 +49,7 @@
             // pnTelaInicial
             // 
             this.pnTelaInicial.Location = new System.Drawing.Point(0, 116);
+            this.pnTelaInicial.Margin = new System.Windows.Forms.Padding(0);
             this.pnTelaInicial.Name = "pnTelaInicial";
             this.pnTelaInicial.Size = new System.Drawing.Size(1431, 946);
             this.pnTelaInicial.TabIndex = 11;
@@ -61,6 +62,7 @@
             this.btnLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLogo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogo.Location = new System.Drawing.Point(12, 17);
+            this.btnLogo.Margin = new System.Windows.Forms.Padding(0);
             this.btnLogo.Name = "btnLogo";
             this.btnLogo.Size = new System.Drawing.Size(384, 74);
             this.btnLogo.TabIndex = 2;
