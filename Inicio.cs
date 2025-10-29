@@ -15,6 +15,7 @@ namespace InjuryCare
         public event EventHandler BtnPeleClicado;
         public event EventHandler BtnLimpezaClicado;
         public event EventHandler BtnCurativoClicado;
+        public event EventHandler BtncicatrizacaoClicado;
         public Inicio()
         {
             InitializeComponent();
@@ -33,6 +34,11 @@ namespace InjuryCare
         private void btnCurativos_Click(object sender, EventArgs e)
         {
             BtnCurativoClicado?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void btnCicatrizacao_Click(object sender, EventArgs e)
+        {
+            BtncicatrizacaoClicado?.Invoke(this, EventArgs.Empty);
         }
     }
 }

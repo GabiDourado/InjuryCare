@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cicatrizacao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cicatrizacao.Designer.cs">
+      <DependentUpon>Cicatrizacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="CurativoFerida.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cicatrizacao.resx">
+      <DependentUpon>Cicatrizacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CurativoFerida.resx">
       <DependentUpon>CurativoFerida.cs</DependentUpon>
     </EmbeddedResource>
