@@ -66,6 +66,13 @@ namespace InjuryCare
             };
             // Mostra a tela inicial no painel
             MostrarTela(telaInicio);
+
+            // Conecta o botão "Pele" para abrir a tela PeleFerida
+            telaInicio.BtnAvaliacaoFeridaClicado += (s, e) =>
+            {
+                var telaAvaliacaoFerida = new AvaliacaoFerida();
+                MostrarTela(telaAvaliacaoFerida);
+            };
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

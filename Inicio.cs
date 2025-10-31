@@ -19,6 +19,7 @@ namespace InjuryCare
         public event EventHandler BtncicatrizacaoClicado;
         public event EventHandler BtnRefClicado;
         public event EventHandler BtnCreditoClicado;
+        public event EventHandler BtnAvaliacaoFeridaClicado;
         public Inicio()
         {
             InitializeComponent();
@@ -129,6 +130,11 @@ namespace InjuryCare
         private void btnCredito_Click(object sender, EventArgs e)
         {
             BtnCreditoClicado?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void btnAvaliacao_Click(object sender, EventArgs e)
+        {
+            BtnAvaliacaoFeridaClicado?.Invoke(this, EventArgs.Empty);
         }
     }
 }

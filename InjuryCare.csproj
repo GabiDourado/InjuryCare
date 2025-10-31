@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AvaliacaoFerida.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AvaliacaoFerida.Designer.cs">
+      <DependentUpon>AvaliacaoFerida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cicatrizacao.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     <Compile Include="Referencias.Designer.cs">
       <DependentUpon>Referencias.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AvaliacaoFerida.resx">
+      <DependentUpon>AvaliacaoFerida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cicatrizacao.resx">
       <DependentUpon>Cicatrizacao.cs</DependentUpon>
     </EmbeddedResource>
