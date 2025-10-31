@@ -210,8 +210,13 @@
     <None Include="Resources\btnAvaliacaoFerida %282%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\DimensionFerida.png" />
+    <None Include="Resources\FeridaBorda.png" />
+    <None Include="Resources\BordaFeridaaa.png" />
+    <None Include="Resources\BordaFerida.png" />
     <Content Include="Resources\btnAvaliacaoFerida %281%29.png" />
     <Content Include="Resources\btnAvaliacaoFerida.png" />
+    <None Include="Resources\FeridasLeito.png" />
     <None Include="Resources\extensao.jpg" />
     <None Include="Resources\Ciencia_da_Computacao.jpg" />
   </ItemGroup>

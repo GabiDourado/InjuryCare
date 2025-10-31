@@ -63,6 +63,26 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BordaFerida {
+            get {
+                object obj = ResourceManager.GetObject("BordaFerida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BordaFeridaaa {
+            get {
+                object obj = ResourceManager.GetObject("BordaFeridaaa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnAvaliacaoFerida {
             get {
                 object obj = ResourceManager.GetObject("btnAvaliacaoFerida", resourceCulture);
@@ -213,9 +233,39 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DimensionFerida {
+            get {
+                object obj = ResourceManager.GetObject("DimensionFerida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap extensao {
             get {
                 object obj = ResourceManager.GetObject("extensao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FeridaBorda {
+            get {
+                object obj = ResourceManager.GetObject("FeridaBorda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FeridasLeito {
+            get {
+                object obj = ResourceManager.GetObject("FeridasLeito", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
