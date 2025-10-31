@@ -63,6 +63,36 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnAvaliacaoFerida {
+            get {
+                object obj = ResourceManager.GetObject("btnAvaliacaoFerida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnAvaliacaoFerida__1_ {
+            get {
+                object obj = ResourceManager.GetObject("btnAvaliacaoFerida (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnAvaliacaoFerida__2_ {
+            get {
+                object obj = ResourceManager.GetObject("btnAvaliacaoFerida (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCicatrizacao {
             get {
                 object obj = ResourceManager.GetObject("btnCicatrizacao", resourceCulture);

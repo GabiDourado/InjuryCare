@@ -84,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Referencias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Referencias.Designer.cs">
+      <DependentUpon>Referencias.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Cicatrizacao.resx">
       <DependentUpon>Cicatrizacao.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +112,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencias.resx">
+      <DependentUpon>Referencias.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -178,6 +187,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Curativio ferida curatyivo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAvaliacaoFerida %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\btnAvaliacaoFerida %281%29.png" />
+    <Content Include="Resources\btnAvaliacaoFerida.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
