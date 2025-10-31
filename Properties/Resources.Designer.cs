@@ -173,6 +173,16 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ciencia_da_Computacao {
+            get {
+                object obj = ResourceManager.GetObject("Ciencia_da_Computacao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Curativio_ferida_curatyivo {
             get {
                 object obj = ResourceManager.GetObject("Curativio ferida curatyivo", resourceCulture);
@@ -196,6 +206,16 @@ namespace InjuryCare.Properties {
         internal static System.Drawing.Bitmap Curativo_da_tela_de_curativo {
             get {
                 object obj = ResourceManager.GetObject("Curativo da tela de curativo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap extensao {
+            get {
+                object obj = ResourceManager.GetObject("extensao", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

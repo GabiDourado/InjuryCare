@@ -105,6 +105,7 @@
             this.btnCredito.Size = new System.Drawing.Size(309, 190);
             this.btnCredito.TabIndex = 10;
             this.btnCredito.UseVisualStyleBackColor = false;
+            this.btnCredito.Click += new System.EventHandler(this.btnCredito_Click);
             // 
             // btnCicatrizacao
             // 

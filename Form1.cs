@@ -58,6 +58,12 @@ namespace InjuryCare
                 var telaRef = new Referencias();
                 MostrarTela(telaRef);
             };
+            // Conecta o botão "Credito" para abrir a tela Creditos
+            telaInicio.BtnCreditoClicado += (s, e) =>
+            {
+                var telaCredito = new Creditos();
+                MostrarTela(telaCredito);
+            };
             // Mostra a tela inicial no painel
             MostrarTela(telaInicio);
         }
