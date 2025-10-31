@@ -48,6 +48,7 @@
             // 
             // pnTelaInicial
             // 
+            this.pnTelaInicial.AutoScroll = true;
             this.pnTelaInicial.Location = new System.Drawing.Point(0, 116);
             this.pnTelaInicial.Margin = new System.Windows.Forms.Padding(0);
             this.pnTelaInicial.Name = "pnTelaInicial";

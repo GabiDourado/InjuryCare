@@ -301,6 +301,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.Controls.Add(this.pnTitulo);
             this.Controls.Add(this.pnInfo);
             this.Name = "Creditos";
