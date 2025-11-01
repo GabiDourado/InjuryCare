@@ -353,6 +353,16 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagem2_2025_10_03_164516112_removebg_preview__2__ {
+            get {
+                object obj = ResourceManager.GetObject("imagem2_2025-10-03_164516112-removebg-preview (2) ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgFerida_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("imgFerida-removebg-preview", resourceCulture);
