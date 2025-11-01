@@ -45,5 +45,20 @@ namespace InjuryCare
             borda2.CloseFigure();
             Pan2.Region = new Region(borda2);
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            ChamarFuncaoDoForm();
+        }
+        private void ChamarFuncaoDoForm()
+        {
+            // Busca o form pai e converte para o tipo certo
+            PgInicial form = this.FindForm() as PgInicial;
+
+            if (form != null)
+            {
+                form.MostrarTelaInicial();
+            }
+        }
     }
 }

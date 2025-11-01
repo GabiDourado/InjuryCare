@@ -219,6 +219,7 @@
     <None Include="Resources\btnAvaliacaoFerida %282%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Voltar.png" />
     <None Include="Resources\imagem2_2025-10-03_164516112-removebg-preview %282%29 .png" />
     <None Include="Resources\contaminada-removebg-preview.png" />
     <None Include="Resources\escoriacao-removebg-preview.png" />

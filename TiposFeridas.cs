@@ -55,5 +55,20 @@ namespace InjuryCare
         private void label3_Click(object sender, EventArgs e){}
 
         private void label2_Click(object sender, EventArgs e){}
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ChamarFuncaoDoForm();
+        }
+        private void ChamarFuncaoDoForm()
+        {
+            // Busca o form pai e converte para o tipo certo
+            PgInicial form = this.FindForm() as PgInicial;
+
+            if (form != null)
+            {
+                form.MostrarTelaInicial(); 
+            }
+        }
     }
 }

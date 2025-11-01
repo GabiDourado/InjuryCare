@@ -24,7 +24,7 @@ namespace InjuryCare
             InitializeComponent();
             MostrarTelaInicial();
         }
-        private void MostrarTelaInicial()
+        public void MostrarTelaInicial()
         {
             var telaInicio = new Inicio();
 
@@ -95,6 +95,11 @@ namespace InjuryCare
 
         }
         private void pnTelaInicial_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PgInicial_Load(object sender, EventArgs e)
         {
 
         }

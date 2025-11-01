@@ -93,6 +93,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "PgInicial";
             this.Text = "Injury Care";
+            this.Load += new System.EventHandler(this.PgInicial_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Menu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

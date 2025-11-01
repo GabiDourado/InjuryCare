@@ -136,5 +136,20 @@ namespace InjuryCare
                 UseShellExecute = true // precisa disso em .NET 5+ ou .NET 6+
             });
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ChamarFuncaoDoForm();
+        }
+        private void ChamarFuncaoDoForm()
+        {
+            // Busca o form pai e converte para o tipo certo
+            PgInicial form = this.FindForm() as PgInicial;
+
+            if (form != null)
+            {
+                form.MostrarTelaInicial();
+            }
+        }
     }
 }

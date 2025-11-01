@@ -43,6 +43,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.Pan1.SuspendLayout();
             this.Pan2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -51,6 +52,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // Pan1
@@ -69,7 +71,7 @@
             this.Pan1.Controls.Add(this.label2);
             this.Pan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pan1.Location = new System.Drawing.Point(48, 140);
-            this.Pan1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Pan1.Margin = new System.Windows.Forms.Padding(4);
             this.Pan1.Name = "Pan1";
             this.Pan1.Size = new System.Drawing.Size(1332, 556);
             this.Pan1.TabIndex = 0;
@@ -133,7 +135,7 @@
             this.Pan2.BackColor = System.Drawing.Color.Aquamarine;
             this.Pan2.Controls.Add(this.label1);
             this.Pan2.Location = new System.Drawing.Point(48, 27);
-            this.Pan2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Pan2.Margin = new System.Windows.Forms.Padding(4);
             this.Pan2.Name = "Pan2";
             this.Pan2.Size = new System.Drawing.Size(1332, 71);
             this.Pan2.TabIndex = 0;
@@ -219,13 +221,26 @@
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackgroundImage = global::InjuryCare.Properties.Resources.Voltar;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Location = new System.Drawing.Point(-4, 37);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(45, 44);
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
             // Cicatrizacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.Pan2);
             this.Controls.Add(this.Pan1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Cicatrizacao";
             this.Size = new System.Drawing.Size(1431, 946);
             this.Load += new System.EventHandler(this.Cicatrizacao_Load);
@@ -238,6 +253,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -258,5 +274,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

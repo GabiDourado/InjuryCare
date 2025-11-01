@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.pnInfo = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -36,18 +42,14 @@
             this.lblTLimpeza = new System.Windows.Forms.Label();
             this.pnTitulo = new System.Windows.Forms.Panel();
             this.lbTitulo = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pnInfo.SuspendLayout();
             this.pnTitulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // pnInfo
@@ -71,6 +73,67 @@
             this.pnInfo.Name = "pnInfo";
             this.pnInfo.Size = new System.Drawing.Size(1332, 556);
             this.pnInfo.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(28, 423);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(232, 29);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "agentes infecciosos.";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(28, 375);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(842, 29);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "que prejudica suas funções básicas. Pode ser causada por agressão física ou";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(28, 265);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(686, 29);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "e Hipoderme (a mais profunda, reserva energética e proteção).";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(28, 221);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(706, 29);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Derme (sustentação, com vasos sanguíneos, nervos e glândulas)";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(28, 181);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(435, 29);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Epiderme (a mais externa e avascular), ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(28, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(560, 29);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "termorregulação, sensibilidade e imagem corporal.";
             // 
             // label6
             // 
@@ -148,66 +211,15 @@
             this.lbTitulo.Text = "O Básico sobre a Pele e Feridas:";
             this.lbTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label1
+            // pictureBox2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 91);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(560, 29);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "termorregulação, sensibilidade e imagem corporal.";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 181);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(435, 29);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Epiderme (a mais externa e avascular), ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 221);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(706, 29);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Derme (sustentação, com vasos sanguíneos, nervos e glândulas)";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(28, 265);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(686, 29);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "e Hipoderme (a mais profunda, reserva energética e proteção).";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(28, 375);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(842, 29);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "que prejudica suas funções básicas. Pode ser causada por agressão física ou";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(28, 423);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(232, 29);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "agentes infecciosos.";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.pictureBox2.BackgroundImage = global::InjuryCare.Properties.Resources.imgFerida_removebg_preview;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(926, 332);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(207, 204);
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -219,20 +231,23 @@
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // pictureBox6
             // 
-            this.pictureBox2.BackgroundImage = global::InjuryCare.Properties.Resources.imgFerida_removebg_preview;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(926, 332);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(207, 204);
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox6.BackgroundImage = global::InjuryCare.Properties.Resources.Voltar;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Location = new System.Drawing.Point(-2, 41);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(45, 44);
+            this.pictureBox6.TabIndex = 22;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // PeleFerida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pnInfo);
             this.Controls.Add(this.pnTitulo);
             this.Name = "PeleFerida";
@@ -241,8 +256,9 @@
             this.pnInfo.ResumeLayout(false);
             this.pnInfo.PerformLayout();
             this.pnTitulo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -265,5 +281,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
