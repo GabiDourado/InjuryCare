@@ -219,6 +219,10 @@
     <None Include="Resources\btnAvaliacaoFerida %282%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\contaminada-removebg-preview.png" />
+    <None Include="Resources\escoriacao-removebg-preview.png" />
+    <None Include="Resources\hematoma-removebg-preview.png" />
+    <None Include="Resources\incisa-removebg-preview.png" />
     <None Include="Resources\imgFerida-removebg-preview.png" />
     <None Include="Resources\imgPele-removebg-preview.png" />
     <None Include="Resources\DimensionFerida.png" />

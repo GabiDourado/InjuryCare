@@ -33,17 +33,17 @@
             this.pnInfo = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblTTipos = new System.Windows.Forms.Label();
-            this.lblTLimpeza = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblTFeridaFechada = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblTDesbridamento = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblTFeridaAberta = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblTBeneficios = new System.Windows.Forms.Label();
+            this.lblTDesbridamento = new System.Windows.Forms.Label();
+            this.lblTFeridaAberta = new System.Windows.Forms.Label();
+            this.lblTFeridaFechada = new System.Windows.Forms.Label();
+            this.lblTLimpeza = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnTitulo.SuspendLayout();
             this.pnInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -118,6 +118,27 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Remove tecido morto, reduz o risco de infecção e estimula a cicatrização.";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(228, 228);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(848, 29);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Remoção de tecido necrosado ou desvitalizado para estimular a regeneração.";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(205, 169);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(982, 29);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Usar SF 0,9% morno em jato, secar apenas ao redor da ferida antes de aplicar a co" +
+    "bertura.";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -138,46 +159,15 @@
             this.lblTTipos.TabIndex = 6;
             this.lblTTipos.Text = "Tipos:";
             // 
-            // lblTLimpeza
+            // lblTBeneficios
             // 
-            this.lblTLimpeza.AutoSize = true;
-            this.lblTLimpeza.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTLimpeza.Location = new System.Drawing.Point(28, 53);
-            this.lblTLimpeza.Name = "lblTLimpeza";
-            this.lblTLimpeza.Size = new System.Drawing.Size(118, 29);
-            this.lblTLimpeza.TabIndex = 1;
-            this.lblTLimpeza.Text = "Limpeza:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::InjuryCare.Properties.Resources.ImgLimpeza;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(1007, 236);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(323, 313);
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
-            // 
-            // lblTFeridaFechada
-            // 
-            this.lblTFeridaFechada.AutoSize = true;
-            this.lblTFeridaFechada.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTFeridaFechada.Location = new System.Drawing.Point(28, 112);
-            this.lblTFeridaFechada.Name = "lblTFeridaFechada";
-            this.lblTFeridaFechada.Size = new System.Drawing.Size(204, 29);
-            this.lblTFeridaFechada.TabIndex = 2;
-            this.lblTFeridaFechada.Text = "Ferida Fechada:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(228, 228);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(848, 29);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Remoção de tecido necrosado ou desvitalizado para estimular a regeneração.";
+            this.lblTBeneficios.AutoSize = true;
+            this.lblTBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTBeneficios.Location = new System.Drawing.Point(28, 282);
+            this.lblTBeneficios.Name = "lblTBeneficios";
+            this.lblTBeneficios.Size = new System.Drawing.Size(143, 29);
+            this.lblTBeneficios.TabIndex = 5;
+            this.lblTBeneficios.Text = "Benefícios:";
             // 
             // lblTDesbridamento
             // 
@@ -189,17 +179,6 @@
             this.lblTDesbridamento.TabIndex = 4;
             this.lblTDesbridamento.Text = "Desbridamento:";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(205, 169);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(982, 29);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Usar SF 0,9% morno em jato, secar apenas ao redor da ferida antes de aplicar a co" +
-    "bertura.";
-            // 
             // lblTFeridaAberta
             // 
             this.lblTFeridaAberta.AutoSize = true;
@@ -209,6 +188,26 @@
             this.lblTFeridaAberta.Size = new System.Drawing.Size(179, 29);
             this.lblTFeridaAberta.TabIndex = 3;
             this.lblTFeridaAberta.Text = "Ferida Aberta:";
+            // 
+            // lblTFeridaFechada
+            // 
+            this.lblTFeridaFechada.AutoSize = true;
+            this.lblTFeridaFechada.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTFeridaFechada.Location = new System.Drawing.Point(28, 112);
+            this.lblTFeridaFechada.Name = "lblTFeridaFechada";
+            this.lblTFeridaFechada.Size = new System.Drawing.Size(204, 29);
+            this.lblTFeridaFechada.TabIndex = 2;
+            this.lblTFeridaFechada.Text = "Ferida Fechada:";
+            // 
+            // lblTLimpeza
+            // 
+            this.lblTLimpeza.AutoSize = true;
+            this.lblTLimpeza.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTLimpeza.Location = new System.Drawing.Point(28, 53);
+            this.lblTLimpeza.Name = "lblTLimpeza";
+            this.lblTLimpeza.Size = new System.Drawing.Size(118, 29);
+            this.lblTLimpeza.TabIndex = 1;
+            this.lblTLimpeza.Text = "Limpeza:";
             // 
             // label1
             // 
@@ -221,15 +220,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Limpar com soro fisiológico 0,9% em jato, secar e cobrir com gaze ou filme.";
             // 
-            // lblTBeneficios
+            // pictureBox1
             // 
-            this.lblTBeneficios.AutoSize = true;
-            this.lblTBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTBeneficios.Location = new System.Drawing.Point(28, 282);
-            this.lblTBeneficios.Name = "lblTBeneficios";
-            this.lblTBeneficios.Size = new System.Drawing.Size(143, 29);
-            this.lblTBeneficios.TabIndex = 5;
-            this.lblTBeneficios.Text = "Benefícios:";
+            this.pictureBox1.BackgroundImage = global::InjuryCare.Properties.Resources.ImgLimpeza;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(1007, 236);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(323, 313);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
             // 
             // LimpezaFerida
             // 

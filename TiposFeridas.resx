@@ -117,25 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Incisas ou cortantes: Causadas por objetos como lâminas, com bordas regulares.
-Corto-contusas: Trauma de um objeto com lâmina, como um machado.
-Limpas: Feitas em ambiente cirúrgico, com baixo risco de infecção.
-Limpas-Contaminadas: Potencialmente contaminadas
-Contaminadas: Tiveram contato com materiais como terra ou fezes e apresentam
-reação inflamatória.
-Infectadas: Apresentam sinais flogísticos (sinais de inflamação).</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Incisas ou cortantes: Causadas por objetos como lâminas, com bordas regulares.
-Corto-contusas: Trauma de um objeto com lâmina, como um machado.
-Perfurantes: Objetos pontiagudos que causam feridas profundas.
-Lácero-contusas: Causadas por compressão ou tração, como mordidas de
-animais, com bordas irregulares.
-Escoriação: Arrancamento da pele.
-Equimoses e Hematomas: Rompimento de vasos sanguíneos sem perda da
-continuidade da pele.
-
-</value>
-  </data>
 </root>

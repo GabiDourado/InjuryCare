@@ -203,6 +203,16 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap contaminada_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("contaminada-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Curativio_ferida_curatyivo {
             get {
                 object obj = ResourceManager.GetObject("Curativio ferida curatyivo", resourceCulture);
@@ -243,6 +253,16 @@ namespace InjuryCare.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap escoriacao_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("escoriacao-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap extensao {
             get {
                 object obj = ResourceManager.GetObject("extensao", resourceCulture);
@@ -266,6 +286,16 @@ namespace InjuryCare.Properties {
         internal static System.Drawing.Bitmap FeridasLeito {
             get {
                 object obj = ResourceManager.GetObject("FeridasLeito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hematoma_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("hematoma-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,6 +376,16 @@ namespace InjuryCare.Properties {
         internal static System.Drawing.Bitmap imgPele_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("imgPele-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap incisa_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("incisa-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
