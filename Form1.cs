@@ -73,6 +73,12 @@ namespace InjuryCare
                 var telaAvaliacaoFerida = new AvaliacaoFerida();
                 MostrarTela(telaAvaliacaoFerida);
             };
+            // Conecta o botão "Tipos de Feridas" para abrir a tela TiposFeridas
+            telaInicio.BtnTiposFeridasClicado += (s, e) =>
+            {
+                var telaTiposFeridas = new TiposFeridas();
+                MostrarTela(telaTiposFeridas);
+            };
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

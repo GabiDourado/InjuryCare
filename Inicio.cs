@@ -20,6 +20,7 @@ namespace InjuryCare
         public event EventHandler BtnRefClicado;
         public event EventHandler BtnCreditoClicado;
         public event EventHandler BtnAvaliacaoFeridaClicado;
+        public event EventHandler BtnTiposFeridasClicado;
         public Inicio()
         {
             InitializeComponent();
@@ -135,6 +136,11 @@ namespace InjuryCare
         private void btnAvaliacao_Click(object sender, EventArgs e)
         {
             BtnAvaliacaoFeridaClicado?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void btnTipoFerida_Click(object sender, EventArgs e)
+        {
+            BtnTiposFeridasClicado?.Invoke(this, EventArgs.Empty);
         }
     }
 }

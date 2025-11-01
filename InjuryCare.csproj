@@ -102,6 +102,12 @@
     <Compile Include="Referencias.Designer.cs">
       <DependentUpon>Referencias.cs</DependentUpon>
     </Compile>
+    <Compile Include="TiposFeridas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TiposFeridas.Designer.cs">
+      <DependentUpon>TiposFeridas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AvaliacaoFerida.resx">
       <DependentUpon>AvaliacaoFerida.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Referencias.resx">
       <DependentUpon>Referencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiposFeridas.resx">
+      <DependentUpon>TiposFeridas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
