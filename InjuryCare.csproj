@@ -219,6 +219,8 @@
     <None Include="Resources\btnAvaliacaoFerida %282%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\imgFerida-removebg-preview.png" />
+    <None Include="Resources\imgPele-removebg-preview.png" />
     <None Include="Resources\DimensionFerida.png" />
     <None Include="Resources\FeridaBorda.png" />
     <None Include="Resources\BordaFeridaaa.png" />
