@@ -23,6 +23,9 @@ namespace InjuryCare
         {
             InitializeComponent();
             MostrarTelaInicial();
+            this.StartPosition = FormStartPosition.CenterScreen; // Abre centralizado
+            this.MaximizeBox = false; // Desativa o botão de maximizar
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Impede redimensionamento
         }
         public void MostrarTelaInicial()
         {
@@ -81,27 +84,15 @@ namespace InjuryCare
             };
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void textBox1_TextChanged(object sender, EventArgs e){}
+        private void label1_Click(object sender, EventArgs e){}
         private void btnLogo_Click(object sender, EventArgs e)
         {
             MostrarTelaInicial();
 
         }
-        private void pnTelaInicial_Paint(object sender, PaintEventArgs e)
-        {
+        private void pnTelaInicial_Paint(object sender, PaintEventArgs e){}
 
-        }
-
-        private void PgInicial_Load(object sender, EventArgs e)
-        {
-
-        }
+        private void PgInicial_Load(object sender, EventArgs e){}
     }
 }
