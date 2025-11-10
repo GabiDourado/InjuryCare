@@ -32,6 +32,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>InjuryCareSign.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon-injury-care %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -143,6 +152,7 @@
     <EmbeddedResource Include="TiposFeridas.resx">
       <DependentUpon>TiposFeridas.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="InjuryCareSign.snk" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -231,6 +241,7 @@
     <None Include="Resources\FeridaBorda.png" />
     <None Include="Resources\BordaFeridaaa.png" />
     <None Include="Resources\BordaFerida.png" />
+    <Content Include="Icon-injury-care %281%29.ico" />
     <Content Include="Resources\btnAvaliacaoFerida %281%29.png" />
     <Content Include="Resources\btnAvaliacaoFerida.png" />
     <None Include="Resources\FeridasLeito.png" />
